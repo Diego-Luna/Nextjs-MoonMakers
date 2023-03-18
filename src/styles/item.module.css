@@ -1,0 +1,28 @@
+.item:hover{
+  transform: scale(1.01);
+  box-shadow: 2px 6px 12px 0px;
+}
+
+.item{
+  width: 25vw;
+  margin-right: 5vw;
+  border-radius: 25px;
+  padding: 2vh;
+}
+
+.img{
+  width: 25vw;
+  height: auto;
+  border-radius: 10px;
+}
+
+.loading{
+  text-align: center;
+  padding-left: 10vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.p{
+  padding-left: 10px;
+}
