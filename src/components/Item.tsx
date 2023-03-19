@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from '@/styles/item.module.css'
 
-export default function List(props: { loading: boolean,  original_title?: string; backdrop_path?: string, release_date?: Date; }) {
+export default function Item(props: { loading: boolean,  original_title?: string; backdrop_path?: string, release_date?: Date; }) {
 
   const [isLoading, setIsLoading] = useState(true);
 
